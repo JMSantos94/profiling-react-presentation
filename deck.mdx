@@ -1,6 +1,10 @@
 export { default as theme } from './theme'
-import { Appear } from 'mdx-deck'
-import { FullScreenCode } from 'mdx-deck/layouts'
+import { Appear, Head, Image } from 'mdx-deck'
+import { FullScreenCode, Split } from 'mdx-deck/layouts'
+
+<Head>
+  <title>Profiling React - Jose Santos</title>
+</Head>
 
 # Profiling React ⚛🔥
 How to make your app not just fast, but blazingly fast!
@@ -10,7 +14,21 @@ How to make your app not just fast, but blazingly fast!
   <h2>📊📈📉📋🧐</h2>
 </Appear>
 ---
-asd
+# Where do I start? 🤷‍♀️
+---
+<h2>Profiling is only supported on <br /> `react-dom 16.5+` (on dev mode).</h2>
+<Appear>
+  <h3>Psttt ... now you can start upgrading</h3>
+  <p>I'll wait ...</p>
+  <h2>Go!</h2>
+</Appear>
+---
+export default Split
+
+### Install "React Dev Tools" in your browser
+![](./images/react-dev-tools.png)
+---
+<Image src="" size="606px 269"/>
 ---
 # THANKS! ❤️
 ---
